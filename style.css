@@ -1,0 +1,11 @@
+body {
+  width: 100%
+}
+
+@media screen {
+  width: 960px;
+}
+
+@media handheld {
+  width: 260px;
+}
