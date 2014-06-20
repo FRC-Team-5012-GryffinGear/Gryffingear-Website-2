@@ -1,11 +1,35 @@
 body {
-  width: 100%
+	background-color: #740001;
+	margin: auto auto;
+  	width: 100%
+}
+
+.nav, .nav a {
+	color: #ffffff;
+	background-color: #d3a625;
+	font-variant: small-caps;
+	text-align: inline-block center;
+	text-decoration: none;
+}
+
+.nav a:hover, .nav a:active {
+	color: #aaaaaa;
+}
+
+.content {
+	background-color: #ffffff;
+	box-shadow: 5px;
+	width: 50%
 }
 
 @media screen {
-  width: 960px;
+	body {
+  		width: 960px;
+  	}
 }
 
 @media handheld {
-  width: 260px;
+	body {
+		width: 260px;
+	}
 }
