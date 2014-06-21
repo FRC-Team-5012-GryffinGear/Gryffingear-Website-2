@@ -1,25 +1,74 @@
 body {
 	background-color: #740001;
-	margin: auto auto;
+	margin: auto;
   	width: 100%
 }
 
-.nav, .nav a {
-	color: #ffffff;
-	background-color: #d3a625;
-	font-variant: small-caps;
-	text-align: inline-block center;
-	text-decoration: none;
+/* h2{font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;} */
+h2 {color: #7F7F7F; font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif; font-style: normal; font-weight: 400;}
+p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;}
+
+.social {
+	background: #f0f0f0;
+	height: 50px;
+	float: right;
+	opacity: 50%;
+	width: 960px;
+}
+
+/* .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav a:link, .nav a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #98bf21;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .nav a:hover, .nav a:active {
-	color: #aaaaaa;
+    background-color: #7A991A;
+} */
+
+.nav {
+	width: 960px;
+}
+
+.nav a {
+	background-color: #eeba30;
+	color: #ffffff;
+	display: block;
+	float: left;
+	padding: 4px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.nav a:hover, .nav a:active {
+	background-color: #d3a625;
 }
 
 .content {
 	background-color: #ffffff;
-	box-shadow: 5px;
-	width: 50%
+	height: 500px;
+}
+
+.footer {
+	background: #000000;
+	color: #7F7F7F;
 }
 
 @media screen {
