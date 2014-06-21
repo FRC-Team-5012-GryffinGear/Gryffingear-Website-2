@@ -27,22 +27,13 @@ h2 {color: #7F7F7F; font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid
 p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;}
 
 .social {
-	background: #f0f0f0;
-	height: 50px;
+	background: #d0d0d0;
+	height: auto;
 	padding: 5px;
 }
 
-.social img {
-	float: right;
-}
-
-.social{
-  float: left;
-  padding-top: 15px;
-}
-
 .social ul, .social li{
-  float: left;
+  float: right;
   font-size: .7em;
   height: 40px;
   list-style: none;
@@ -172,6 +163,15 @@ transition: all ease 0.5s;
 background-position: 0 0;
 }
 
+.nav {
+	background-color: #eeba30;
+	color: #ffffff;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
 .nav a {
 	background-color: #eeba30;
 	color: #ffffff;
@@ -190,6 +190,7 @@ background-position: 0 0;
 
 .content {
 	background-color: #ffffff;
+	box-shadow: 0px 10px 5px #000;
 	height: 500px;
 	padding: 5px;
 	overflow: hidden;
