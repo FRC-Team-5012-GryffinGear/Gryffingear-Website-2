@@ -1,3 +1,21 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 body {
 	background-color: #740001;
 	margin: auto;
@@ -11,39 +29,147 @@ p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;}
 .social {
 	background: #f0f0f0;
 	height: 50px;
+	padding: 5px;
+}
+
+.social img {
 	float: right;
-	opacity: 50%;
-	width: 960px;
 }
 
-/* .nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.social{
+  float: left;
+  padding-top: 15px;
 }
 
-.nav li {
-    float: left;
+.social ul, .social li{
+  float: left;
+  font-size: .7em;
+  height: 40px;
+  list-style: none;
+  padding: 2px;
 }
 
-.nav a:link, .nav a:visited {
-    display: block;
-    width: 120px;
-    font-weight: bold;
-    color: #FFFFFF;
-    background-color: #98bf21;
-    text-align: center;
-    padding: 4px;
-    text-decoration: none;
-    text-transform: uppercase;
+.social a{
+  color: #ffffff;
+  text-decoration: none;
 }
 
-.nav a:hover, .nav a:active {
-    background-color: #7A991A;
-} */
+.social a:hover{
+  color: #590000;
+}
 
-.nav {
-	width: 960px;
+.facebook-hover {
+display: block;
+width: 40px;
+height: 40px;
+background: url(images/facebook.jpg) bottom;
+border-radius: 50%;
+text-indent: -99999px;
+margin-right: 5px;
+-webkit-transition: all ease 0.5s;
+-moz-transition: all ease 0.5s;
+-o-transition: all ease 0.5s;
+-ms-transition: all ease 0.5s;
+transition: all ease 0.5s;
+}
+
+.facebook-hover:hover {
+background-position: 0 0;
+}
+
+.google-hover {
+display: block;
+width: 40px;
+height: 40px;
+background: url(images/google.jpg) bottom;
+border-radius: 50%;
+text-indent: -99999px;
+margin-right: 5px;
+-webkit-transition: all ease 0.5s;
+-moz-transition: all ease 0.5s;
+-o-transition: all ease 0.5s;
+-ms-transition: all ease 0.5s;
+transition: all ease 0.5s;
+}
+
+.google-hover:hover {
+background-position: 0 0;
+}
+
+.instagram-hover {
+display: block;
+width: 40px;
+height: 40px;
+background: url(images/instagram.jpg) bottom;
+border-radius: 50%;
+text-indent: -99999px;
+margin-right: 5px;
+-webkit-transition: all ease 0.5s;
+-moz-transition: all ease 0.5s;
+-o-transition: all ease 0.5s;
+-ms-transition: all ease 0.5s;
+transition: all ease 0.5s;
+}
+
+.instagram-hover:hover {
+background-position: 0 0;
+}
+
+.reddit-hover {
+display: block;
+width: 40px;
+height: 40px;
+background: url(images/reddit.jpg) bottom;
+border-radius: 50%;
+text-indent: -99999px;
+margin-right: 5px;
+-webkit-transition: all ease 0.5s;
+-moz-transition: all ease 0.5s;
+-o-transition: all ease 0.5s;
+-ms-transition: all ease 0.5s;
+transition: all ease 0.5s;
+}
+
+.reddit-hover:hover {
+background-position: 0 0;
+}
+
+.twitter-hover {
+display: block;
+width: 40px;
+height: 40px;
+background: url(images/twitter.jpg) bottom;
+border-radius: 50%;
+text-indent: -99999px;
+margin-right: 5px;
+-webkit-transition: all ease 0.5s;
+-moz-transition: all ease 0.5s;
+-o-transition: all ease 0.5s;
+-ms-transition: all ease 0.5s;
+transition: all ease 0.5s;
+}
+
+.twitter-hover:hover {
+background-position: 0 0;
+}
+
+.youtube-hover {
+display: block;
+width: 40px;
+height: 40px;
+background: url(images/youtube.jpg) bottom;
+border-radius: 50%;
+text-indent: -99999px;
+margin-right: 5px;
+-webkit-transition: all ease 0.5s;
+-moz-transition: all ease 0.5s;
+-o-transition: all ease 0.5s;
+-ms-transition: all ease 0.5s;
+transition: all ease 0.5s;
+}
+
+.youtube-hover:hover {
+background-position: 0 0;
 }
 
 .nav a {
@@ -51,7 +177,8 @@ p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;}
 	color: #ffffff;
 	display: block;
 	float: left;
-	padding: 4px;
+	margin: auto;
+	padding: 5px;
 	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -64,21 +191,23 @@ p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;}
 .content {
 	background-color: #ffffff;
 	height: 500px;
+	padding: 5px;
+	overflow: hidden;
 }
 
 .footer {
-	background: #000000;
-	color: #7F7F7F;
+	background: #BFBFBF;
+	padding: 5px 5px 5px 5px;
 }
 
 @media screen {
-	body {
+	body, .social, .nav, .content, .footer {
   		width: 960px;
   	}
 }
 
 @media handheld {
-	body {
+	body, .social, .nav, .content, .footer {
 		width: 260px;
 	}
 }
