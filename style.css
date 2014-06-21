@@ -22,20 +22,17 @@ body {
   	width: 100%
 }
 
-/* h2{font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;} */
 h2 {color: #7F7F7F; font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif; font-style: normal; font-weight: 400;}
 p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;}
 
 .social {
 	background: #d0d0d0;
-	height: auto;
 	padding: 5px;
 }
 
 .social ul, .social li{
   float: right;
   font-size: .7em;
-  height: 40px;
   list-style: none;
   padding: 2px;
 }
@@ -163,25 +160,19 @@ transition: all ease 0.5s;
 background-position: 0 0;
 }
 
-.nav {
+.nav, .nav a {
 	background-color: #eeba30;
-	color: #ffffff;
-	display: block;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-
-.nav a {
-	background-color: #eeba30;
+	
 	color: #ffffff;
 	display: block;
 	float: left;
+	font-size: 16px;
 	margin: auto;
 	padding: 5px;
 	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
+	width: 127px;
 }
 
 .nav a:hover, .nav a:active {
@@ -190,8 +181,6 @@ background-position: 0 0;
 
 .content {
 	background-color: #ffffff;
-	box-shadow: 0px 10px 5px #000;
-	height: 500px;
 	padding: 5px;
 	overflow: hidden;
 }
