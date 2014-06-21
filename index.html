@@ -9,6 +9,8 @@
 
 <body>
   <div class="header">
+  	
+  <!-- Start Social Buttons -->
   	<div class="social">
   		<a href="http://www.gryffingear.com/"><img class="logo" src="images/logo.png" style="width: 15%;"></a>
   		<ul>
@@ -31,8 +33,9 @@
 				<a class="youtube-hover" href="https://www.youtube.com/user/Gryffingear5012" target="_new" title="YouTube | Gryffingear Team 5012">YouTube</a>
 			</li>
 		</ul>
-  	</div>
+  	</div> <!-- End Social Buttons -->
 
+  	<!-- Start Navigation Menu -->
   	<div class="nav">
   		<a href="#">Home</a>
   		<a href="#">Our Team</a>
@@ -42,15 +45,39 @@
   		<a href="#">About FIRST</a>
   		<a href="#">Contact Us</a>
   	</div>
-  </div>
+  </div> <!-- End Navigation Menu -->
 
+  <!-- Start Website Content -->
   <div class="content">
   	<h2>Lorem ipsum dolor</h2>
   	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
+  </div> <!-- End Website Content -->
 
   <div class="footer">
-  	<p>&#169;2014 of Gryffingear Team 5012 | Designed by: Leslie Ochoa</p>
+  	<p>&#169;2014 Gryffingear Team 5012 | Designed by: <a href="https://github.com/nats-ohchewy/Gryffingear-Website-2" target="_blank" title="View Website Code">Leslie Ochoa</a></p>
+  	<a href="#" class="go-top"><img src="images/backtotop.png"></a>
   </div>
+
+  <!-- Back to Top JavaScript -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			// Show or hide the sticky footer button
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > 200) {
+					$('.go-top').fadeIn(200);
+				} else {
+					$('.go-top').fadeOut(200);
+				}
+			});
+			
+			// Animate the scroll to top
+			$('.go-top').click(function(event) {
+				event.preventDefault();
+				
+				$('html, body').animate({scrollTop: 0}, 300);
+			})
+		});
+	</script> <!-- End Back to Top JavaScript -->
 </body>
 </html>
