@@ -190,6 +190,7 @@ background-position: 0 0;
 	background: #BFBFBF;
 	padding: 5px 5px 5px 5px;
 	margin-bottom: 10px;
+	width: 960px;
 }
 
 .go-top {
@@ -210,13 +211,13 @@ background-position: 0 0;
 }
 
 @media screen {
-	body, .social, .nav, .content, .footer {
+	body, .social, .nav, .content, .footer iframe {
   		width: 960px;
   	}
 }
 
 @media handheld {
-	body, .social, .nav, .content, .footer {
+	body, .social, .nav, .content, .footer iframe{
 		width: 260px;
 	}
 }
