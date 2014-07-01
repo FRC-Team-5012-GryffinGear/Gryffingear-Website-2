@@ -30,6 +30,7 @@ p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;}
 	padding: 5px;
 }
 
+/* Start Social Icons */
 .social ul, .social li{
   float: right;
   font-size: .7em;
@@ -159,7 +160,9 @@ transition: all ease 0.5s;
 .youtube-hover:hover {
 background-position: 0 0;
 }
+/* End Social Icons */
 
+/* Start Navigation Menu */
 .nav, .nav a {
 	background-color: #eeba30;
 	
@@ -178,6 +181,7 @@ background-position: 0 0;
 .nav a:hover, .nav a:active {
 	background-color: #d3a625;
 }
+/* End Navigation Menu */
 
 .content {
 	background-color: #ffffff;
