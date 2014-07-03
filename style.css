@@ -50,6 +50,7 @@ p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;}
 }
 
 .fixed-icons {
+	float: right;
 	position: fixed;
 }
 
