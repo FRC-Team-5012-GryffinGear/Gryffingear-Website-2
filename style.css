@@ -42,6 +42,7 @@ p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;}
 .social a{
   color: #ffffff;
   text-decoration: none;
+  position: fixed;
 }
 
 .social a:hover{
