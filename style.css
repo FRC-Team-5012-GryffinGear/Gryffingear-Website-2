@@ -49,11 +49,6 @@ p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;}
   color: #590000;
 }
 
-.fixed-icons {
-	float: right;
-	position: fixed;
-}
-
 .facebook-hover {
 display: block;
 width: 40px;
