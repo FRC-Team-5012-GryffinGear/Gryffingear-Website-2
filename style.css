@@ -31,6 +31,10 @@ p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;}
 	padding: 5px;
 }
 
+.social .comtainer {
+	position: fixed;
+}
+
 /* Start Social Icons */
 .social ul, .social li{
   float: right;
@@ -42,7 +46,6 @@ p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;}
 .social a{
   color: #ffffff;
   text-decoration: none;
-  position: fixed;
 }
 
 .social a:hover{
