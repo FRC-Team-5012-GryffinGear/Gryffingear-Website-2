@@ -38,7 +38,6 @@ p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; line-height: 1.
 /* Start Social Icons */
 .social ul, .social li{
   float: right;
-  font-size: .7em;
   list-style: none;
   padding: 2px;
 }
@@ -171,12 +170,13 @@ background-position: 0 0;
 nav a{
    text-decoration:none;
    color:inherit;
-   }
+}
 
 nav ul{
    background-color: #eeba30;
    color: #ffffff;
-   font-size: 16px;
+   display: block;
+   font-size: 1em;
    margin: 0;
    overflow: hidden;
    text-align: center;
@@ -187,11 +187,11 @@ nav ul{
    -moz-transition: max-height 0.4s;
    -o-transition: max-height 0.4s;
    transition: max-height 0.4s;
-   }
+}
 
 nav ul li{
    display: inline-block;
-   padding: 15px;
+   padding: 10px;
 }
 
 nav ul li:hover{
@@ -199,14 +199,14 @@ nav ul li:hover{
 }
 
 .handle{
-   width: 100%;
    background: #eeba30;
-   text-align: left;
    box-sizing: border-box;
-   padding: 15px 10px;
-   cursor: pointer;
    color: white;
+   cursor: pointer;
    display: none;
+   padding: 15px 10px;
+   text-align: left;
+   width: 100%;
 }
 
 /* .nav, .nav a {
@@ -283,7 +283,7 @@ nav ul li:hover{
    nav ul li{
    box-sizing: border-box;
    width: 100%;
-   padding: 15px;
+   padding: 10px;
    text-align: left;
    }
    
@@ -292,13 +292,15 @@ nav ul li:hover{
    }
 }
 
-@media screen {
-	body, .social, nav ul, .content, .footer, iframe {
+@media screen and (min-width: 960px){
+	body, .social, .content, .footer, iframe {
   		width: 960px;
   	}
+
+  	nav ul {width: 970px;}
 }
 
-@media handheld {
+@media handheld and (max-width: 260px){
 	body, .social, .content, .footer, iframe{
 		width: 260px;
 	}
