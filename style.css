@@ -22,7 +22,8 @@ body {
   	width: 100%
 }
 
-a {color: #00b0ff;}
+a {color: #0191C8; text-decoration: none;}
+a:hover {text-decoration: underline;}
 h2 {color: #7F7F7F; font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif; font-style: normal; font-weight: 400;}
 p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;}
 
@@ -189,7 +190,6 @@ background-position: 0 0;
 	background-color: #ffffff;
 	padding: 5px;
 	overflow: hidden;
-	height: 2000px;
 }
 
 .hplinks {
@@ -202,11 +202,14 @@ background-position: 0 0;
 .column-center{ display: inline-block; width: 33%; }
 
 .footer {
-	background: #BFBFBF;
+	background: #666;
 	padding: 5px 5px 5px 5px;
 	margin-bottom: 10px;
 	width: 960px;
 }
+
+.footer a {color: #00B0FF; text-decoration: none;}
+.footer a:hover {text-decoration: underline;}
 
 .go-top {
 	background-color: rgba(0, 0, 0, 0.3);
