@@ -300,8 +300,12 @@ nav ul li:hover{
   	nav ul {width: 970px;}
 }
 
-@media handheld and (max-width: 250px){
+@media handheld and (max-width: 260px){
 	body, .social, .content, .footer, iframe{
-		width: 250px;
+		width: 260px;
+	}
+
+	nav ul {
+		width: 270px;
 	}
 }
