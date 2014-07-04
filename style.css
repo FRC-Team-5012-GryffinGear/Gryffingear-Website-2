@@ -272,24 +272,24 @@ nav ul li:hover{
 }
 
 @media screen and (max-width: 580px){
-   nav ul{
-   max-height: 0;
-}
+	nav ul {
+   		max-height: 0;
+	}
    
-   .showing{
-   max-height: 30em;    
-}
+	.showing {
+   		max-height: 30em;    
+	}
    
-   nav ul li{
-   box-sizing: border-box;
-   width: 100%;
-   padding: 10px;
-   text-align: left;
-   }
+   nav ul li {
+   		box-sizing: border-box;
+   		width: 100%;
+   		padding: 10px;
+   		text-align: left;
+   	}
    
-   .handle{
-   display: block;
-   }
+   	.handle {
+   		display: block;
+   	}
 }
 
 @media screen and (min-width: 960px){
@@ -300,12 +300,10 @@ nav ul li:hover{
   	nav ul {width: 970px;}
 }
 
-@media handheld and (max-width: 260px){
+@media handheld and (min-width: 260px){
 	body, .social, .content, .footer, iframe{
 		width: 260px;
 	}
 
-	nav ul {
-		width: 270px;
-	}
+	nav ul {width: 270px;}
 }

@@ -5,6 +5,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -36,16 +37,23 @@
   	</div> <!-- End Social Buttons -->
 
   	<!-- Start Navigation Menu -->
-  	<div class="nav">
-      <a href="#">Home</a>
-      <a href="OurTeam.html">Our Team</a>
-      <a href="Events.html">Event Info</a>
-      <a href="SPonsors.html">Sponsors</a>
-      <a href="Resources.html">Resources</a>
-      <a href="FIRST.html">About FIRST</a>
-      <a href="ContactUs.html">Contact Us</a>
-    </div>
-
+  	<nav>  
+      <ul>
+        <a href="#"><li>Home</li></a>
+        <a href="OurTeam.html"><li>Our Team</li></a>
+        <a href="Events.html"><li>Event Info</li></a>
+        <a href="SPonsors.html"><li>Sponsors</li></a>
+        <a href="Resources.html"><li>Resources</li></a>
+        <a href="FIRST.html"><li>About FIRST</li></a>
+        <a href="ContactUs.html"><li>Contact Us</li></a>
+      </ul>
+      <div class="handle">&#9776; Menu</div>
+    </nav>
+    <script>
+      $('.handle').on('click', function(){
+      $('nav ul').toggleClass('showing'); 
+      });
+    </script>
   </div> <!-- End Navigation Menu -->
 
   <!-- Start Website Content -->
