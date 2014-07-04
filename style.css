@@ -274,11 +274,11 @@ nav ul li:hover{
 @media screen and (max-width: 580px){
    nav ul{
    max-height: 0;
-   }
+}
    
    .showing{
    max-height: 30em;    
-   }
+}
    
    nav ul li{
    box-sizing: border-box;
@@ -300,8 +300,8 @@ nav ul li:hover{
   	nav ul {width: 970px;}
 }
 
-@media handheld and (max-width: 260px){
+@media handheld and (max-width: 250px){
 	body, .social, .content, .footer, iframe{
-		width: 260px;
+		width: 250px;
 	}
 }
