@@ -169,6 +169,7 @@ background-position: 0 0;
 /* Start Navigation Menu */
 nav a{
    text-decoration: none;
+   background-color: inherit;
    color: inherit;
 }
 
@@ -204,6 +205,7 @@ nav ul li:hover{
    color: white;
    cursor: pointer;
    display: none;
+   padding: 15px 10px;
    text-align: left;
    width: 100%;
 }
@@ -215,6 +217,39 @@ nav ul li:hover{
 	overflow: hidden;
 	width: 100%
 }
+
+.rslides {
+  clear: both;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.rslides li {
+  display: none;
+  left: 0;]
+  position: absolute;
+  top: 0;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+}
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+}
+/* End Slider */
 
 .hplinks {
 	margin: auto;

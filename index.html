@@ -6,6 +6,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="responsiveslides.min.js"></script>
+  <script>
+      $(function () {
+
+      $("#slider").responsiveSlides({
+        maxwidth: 960,
+        speed: 800
+      });
+    });
+    </script>
 </head>
 
 <body>
@@ -58,7 +68,20 @@
 
   <!-- Start Website Content -->
   <div class="content">
-  	<div class="hplinks">
+  	<!-- Start Slider -->
+    <div id="wrapper">
+      <ul class="rslides" id="slider">
+        <li><img src="images/1-img1.jpg"></li>
+        <li><img src="images/1-img2.jpg"></li>
+        <li><img src="images/1-img3.jpg"></li>
+        <li><img src="images/1-img4.jpg"></li>
+        <li><img src="images/1-img5.jpg"></li>
+        <li><img src="images/1-img6.jpg"></li>
+        <li><img src="images/1-img7.jpg"></li>
+      </ul>
+    </div><!-- End Slider -->
+
+    <div class="hplinks">
    		<div class="one-third"><p>Column center</p></div>
    		<div class="one-third"><p>Column left</p></div>
    		<div class="one-third-last"><p>Column right</p></div>
@@ -73,18 +96,7 @@
   </div> <!-- End Website Content -->
 
   <div class="footer">
-  	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.3.6/slick.css"/>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.6/slick.min.js"></script>
-    <h2>Center Mode</h2>
-    <div class="slider center">
-      <div><h3>1</h3></div>
-      <div><h3>2</h3></div>
-      <div><h3>3</h3></div>
-      <div><h3>4</h3></div>
-      <div><h3>5</h3></div>
-      <div><h3>6</h3></div>
-    </div>
-    <p>&#169;2014 Gryffingear Team 5012 | Designed by: <a href="https://github.com/nats-ohchewy/Gryffingear-Website-2" target="_blank" title="View Website Code">Leslie Ochoa</a><a href="#" style="float: right;" target="_blank">Site Map</a></p>
+    <p>&#169;2014 Gryffingear Team 5012 | Designed by: <a href="https://github.com/nats-ohchewy/Gryffingear-Website-2" target="_blank" title="View Website Code">Leslie Ochoa</a><a href="#" style="float: right;" target="_blank">- Site Map</a></p>
   	<a href="#" class="go-top"><img src="images/backtotop.png"></a>
   </div>
 
