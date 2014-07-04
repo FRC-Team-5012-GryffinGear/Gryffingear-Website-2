@@ -25,7 +25,7 @@ body {
 a {color: #0191C8; text-decoration: none;}
 a:hover {text-decoration: underline;}
 h2 {color: #7F7F7F; font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif; font-style: normal; font-weight: 400;}
-img {width: 100%; height: auto;}
+img {max-width: 100%; height: auto;}
 p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; line-height: 1.5em;}
 
 .social {
