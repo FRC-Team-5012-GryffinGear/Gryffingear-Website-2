@@ -10,5 +10,3 @@ The team makes a website to keep track of where things are and when things are o
 =====================
 
 [Gryffingear Team 5012](http://www.gryffingear.com/) - Competitive FIRST Robotics Team
-
-[Test]$( 'a[href^=http://www.gryffingear.com/]' ).attr( 'target' , '_blank' );
