@@ -199,9 +199,8 @@ background-position: 0 0;
 	width: 100%
 }
 
-.column-left{ float: left; width: 33%; }
-.column-right{ float: right; width: 33%; }
-.column-center{ display: inline-block; width: 33%; }
+.one-third {float: left; margin-right: 5%; width: 30%;}
+.one-third-last {margin: 0;}
 
 .footer {
 	background: #666;
