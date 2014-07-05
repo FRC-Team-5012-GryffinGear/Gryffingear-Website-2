@@ -22,7 +22,7 @@ body {
   	width: 100%
 }
 
-a {color: #0191C8; text-decoration: none;}
+a {color: #08c; text-decoration: none;}
 a:hover {text-decoration: underline;}
 h2 {color: #7F7F7F; font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif; font-style: normal; font-weight: 400;}
 img {max-width: 100%; height: auto;}
@@ -221,15 +221,14 @@ nav ul li:hover{
 .rslides {
   clear: both;
   list-style: none;
-  margin: 0;
-  padding: 0;
   position: relative;
+  overflow: hidden;
   width: 100%;
 }
 
 .rslides li {
   display: none;
-  left: 0;]
+  left: 0;
   position: absolute;
   top: 0;
   width: 100%;
@@ -308,17 +307,13 @@ nav ul li:hover{
 }
 
 @media screen and (min-width: 960px){
-	body, .social, .content, .footer, iframe {
+	body, .social, .rslides, nav ul, .content, .footer, iframe {
   		width: 960px;
   	}
-
-  	nav ul {width: 970px;}
 }
 
 @media handheld and (min-width: 260px){
-	body, .social, .content, .footer, iframe{
+	body, .social, nav ul, .content, .footer, iframe{
 		width: 260px;
 	}
-
-	nav ul {width: 270px;}
 }
