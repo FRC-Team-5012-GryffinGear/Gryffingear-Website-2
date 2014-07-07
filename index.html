@@ -19,11 +19,12 @@
 </head>
 
 <body>
+  
+<!-- Start Header -->
   <div class="header">
-  	
-  <!-- Start Social Buttons -->
+
+    <!-- Start Social Buttons -->
   	<div class="social">
-    		<a href="http://www.gryffingear.com/" title="gryffingear.com"><img class="logo" src="images/logo.png" style="width: 20%;"></a>
       	<ul>
     			<li>
     				<a class="facebook-hover" href="https://www.facebook.com/TPAARobotics.FTCTeam.7372.FRCTeam.5012" target="_new" title="Facebook | Gryffingear 5012 & Norbots 7372">Facebook</a>
@@ -46,30 +47,33 @@
     		</ul>
   	</div> <!-- End Social Buttons -->
 
-  	<!-- Start Navigation Menu -->
-    <nav>	
-      <ul>
-    		<a href="#"><li>Home</li></a>
-    		<a href="OurTeam.html"><li>Our Team</li></a>
+    <a href="http://www.gryffingear.com/" title="gryffingear.com"><img class="logo" src="images/logo.png" style="width: 20%;"></a>
+
+    <!-- Start Navigation Menu -->
+    <div class="nav">
+      <ul class="nul">
+        <a href="#"><li>Home</li></a>
+        <a href="OurTeam.html"><li>Our Team</li></a>
         <a href="Awards.html"><li>Awards</li></a>
-    		<a href="Events.html"><li>Event Info</li></a>
-    		<a href="SPonsors.html"><li>Sponsors</li></a>
-    		<a href="Resources.html"><li>Resources</li></a>
-    		<a href="FIRST.html"><li>About FIRST</li></a>
-    		<a href="ContactUs.html"><li>Contact Us</li></a>
-    	</ul>
+        <a href="Events.html"><li>Event Info</li></a>
+        <a href="SPonsors.html"><li>Sponsors</li></a>
+        <a href="Resources.html"><li>Resources</li></a>
+        <a href="FIRST.html"><li>About FIRST</li></a>
+        <a href="ContactUs.html"><li>Contact Us</li></a>
+      </ul>
       <div class="handle">&#9776; Menu</div>
-    </nav>
+    </div>
     <script>
       $('.handle').on('click', function(){
-      $('nav ul').toggleClass('showing'); 
+      $('.nul').toggleClass('showing'); 
       });
-    </script>
-  </div> <!-- End Navigation Menu -->
+    </script> <!-- End Navigation Menu -->
+  </div> <!-- End Header -->
 
   <!-- Start Website Content -->
+  <div class="content">
 
-  <!-- Start Slider -->
+    <!-- Start Slider -->
     <div id="wrapper">
       <ul class="rslides" id="slider">
         <li><img src="images/1-img1.jpg"></li>
@@ -82,13 +86,7 @@
       </ul>
     </div><!-- End Slider -->
 
-  <div class="content">
-    <div class="hplinks">
-   		<div class="one-third"><p>Column center</p></div>
-   		<div class="one-third"><p>Column left</p></div>
-   		<div class="one-third-last"><p>Column right</p></div>
-  	</div>
-    <div style="clear: both;">	
+    <div class="wrapper">	
       <h2>Lorem ipsum dolor</h2>
     	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
@@ -97,23 +95,25 @@
   	</div>
   </div> <!-- End Website Content -->
 
+  <!-- Start Footer -->
   <div class="footer">
-    <p>&#169;2014 Gryffingear Team 5012 | Designed by: <a href="https://github.com/nats-ohchewy/Gryffingear-Website-2" target="_blank" title="View Website Code">Leslie Ochoa</a><a href="#" style="float: right;" target="_blank">- Site Map</a></p>
+    <div class="wrapper">
+      <p>&#169;2014 Gryffingear Team 5012 | Designed by: <a href="https://github.com/nats-ohchewy/Gryffingear-Website-2" target="_blank" title="View Website Code">Leslie Ochoa</a><a href="#" style="float: right;" target="_blank">- Site Map</a></p>
+    </div>
   	<a href="#" class="go-top"><img src="images/backtotop.png"></a>
-  </div>
 
-  <!-- Back to Top JavaScript -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script>
-		$(document).ready(function() {
-			// Show or hide the sticky footer button
-			$(window).scroll(function() {
-				if ($(this).scrollTop() > 200) {
-					$('.go-top').fadeIn(200);
-				} else {
-					$('.go-top').fadeOut(200);
-				}
-			});
+    <!-- Back to Top JavaScript -->
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	  <script>
+		  $(document).ready(function() {
+			 // Show or hide the sticky footer button
+			 $(window).scroll(function() {
+				  if ($(this).scrollTop() > 200) {
+					 $('.go-top').fadeIn(200);
+				  } else {
+					 $('.go-top').fadeOut(200);
+				  }
+			 });
 			
 			// Animate the scroll to top
 			$('.go-top').click(function(event) {
@@ -122,6 +122,7 @@
 				$('html, body').animate({scrollTop: 0}, 300);
 			})
 		});
-	</script> <!-- End Back to Top JavaScript -->
+	  </script> <!-- End Back to Top JavaScript -->
+  </div> <!-- End Footer -->
 </body>
 </html>
