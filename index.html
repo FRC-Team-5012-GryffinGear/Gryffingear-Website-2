@@ -2,6 +2,7 @@
 <html lang="en-US">
 <head>
   <title>Gryffingear Team 5012 | TPAA Robotics</title>
+  <link rel="stylesheet" type="text/css" href="slick.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
@@ -30,7 +31,7 @@
     				<a class="facebook-hover" href="https://www.facebook.com/TPAARobotics.FTCTeam.7372.FRCTeam.5012" target="_new" title="Facebook | Gryffingear 5012 & Norbots 7372">Facebook</a>
     			</li>
     			<li>
-    				<a class="google-hover" href="https://plus.google.com/u/0/+Gryffingear5012/about" target="_new" title="Google+ | Gryffingear Team 5012">Google+</a>
+    				<a class="google-hover" href="https://plus.google.com/u/0/+Gryffingear5012" target="_new" title="Google+ | Gryffingear Team 5012">Google+</a>
     			</li>
     			<li>
     				<a class="instagram-hover" href="http://instagram.com/gryffingear5012" target="_new" title="Instagram | Gryffingear Team 5012">Instagram</a>
@@ -98,7 +99,33 @@
   <!-- Start Footer -->
   <div class="footer">
     <div class="wrapper">
-      <p>&#169;2014 Gryffingear Team 5012 | Designed by: <a href="https://github.com/nats-ohchewy/Gryffingear-Website-2" target="_blank" title="View Website Code">Leslie Ochoa</a><a href="#" style="float: right;" target="_blank" title="Site Map | Gryffingear Team 5012">Site Map</a></p>
+      
+    <!-- Start Sponsor Slider -->
+      <div class="sponsors">
+          <div><h3>1</h3></div>
+          <div><h3>2</h3></div>
+          <div><h3>3</h3></div>
+          <div><h3>4</h3></div>
+          <div><h3>5</h3></div>
+          <div><h3>6</h3></div>
+        </div>
+
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="slick.min.js"></script>
+
+      <script type="text/javascript">
+        $('.sponsors').slick({
+          dots: false,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 5,
+          touchMove: false,
+          slidesToScroll: 1
+        });
+      </script> <!-- End Sponsor Slider -->
+
+      <p>&#169;2014 Gryffingear Team 5012 | Designed by: <a href="https://github.com/nats-ohchewy/Gryffingear-Website-2" target="_blank" title="View Website Code">Leslie Ochoa</a><a href="SiteMap.html" style="float: right;" target="_blank" title="Site Map | Gryffingear Team 5012">Site Map</a></p>
     </div>
   	<a href="#" class="go-top"><img src="images/backtotop.png"></a>
 

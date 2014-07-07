@@ -291,6 +291,12 @@ background-position: 0 0;
 }
 /* End Footer */
 
+/* Start Sponsor Slider */
+.sponsors {
+	width: 100%;
+}
+/* End Sponsor Slider */
+
 /* Start Back to Top */
 .go-top {
 	background-color: rgba(0, 0, 0, 0.3);
@@ -333,13 +339,13 @@ background-position: 0 0;
 }
 
 @media screen and (min-width: 960px){
-	body, .social, .nav ul, .content, .footer, .timeline {
+	body, .social, .nav ul, .content, .footer, .timeline .sponsors {
   		width: 955px;
   	}
 }
 
 @media handheld and (min-width: 260px){
-	body, .social, .nav ul, .content, .footer, .timeline {
+	body, .social, .nav ul, .content, .footer, .timeline .sponsors {
 		width: 260px;
 	}
 }
