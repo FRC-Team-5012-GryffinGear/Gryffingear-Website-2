@@ -416,5 +416,9 @@ background-position: 0 0;
 	body, .social, .nav ul, .content, .footer, .timeline, .calendar, .location {
 		width: 260px;
 	}
+
+	.calendar {
+		height: 100px;
+	}
 }
 /* End Media Display */
