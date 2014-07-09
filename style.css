@@ -289,7 +289,7 @@ background-position: 0 0;
 }
 /* End Slider */
 
-#regionals {
+#regionals, #committees, #braverybrewing, #roboweek, #blooddrive, #srw {
 	display: none;
 	margin-left: 2em;
 }
@@ -298,25 +298,12 @@ background-position: 0 0;
 	list-style: none;
 }
 
-#committees{
-	display: none;
-	margin-left: 2em;
-}
-
-.awards {
+.awards, .totalawards, .contactinfo {
 	margin-bottom: 1em;
 }
 
 .awards li {
 	list-style: none;
-}
-
-.totalawards {
-	margin-bottom: 1em;
-}
-
-.contactinfo {
-	margin-bottom: 1em;
 }
 
 /* Start Footer */
