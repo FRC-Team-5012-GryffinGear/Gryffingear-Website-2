@@ -23,7 +23,8 @@ body {
 }
 
 a {
-	color: #08c; 
+	color: #0088cc; 
+	font-weight: bold;
 	text-decoration: none;
 }
 
@@ -32,7 +33,7 @@ a:hover {
 }
 
 h2 {
-	color: #7F7F7F; 
+	color: #7f7f7f; 
 	font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif; 
 	font-style: normal; 
 	font-weight: 400;
@@ -190,6 +191,7 @@ background-position: 0 0;
    text-decoration: none;
    background-color: inherit;
    color: inherit;
+   font-weight: normal;
 }
 
 .nul{
@@ -275,6 +277,14 @@ background-position: 0 0;
 }
 /* End Slider */
 
+.contactinfo {
+	float: right;
+}
+
+.contactform {
+	float: left;
+}
+
 /* Start Footer */
 .footer {
 	background: #666;
@@ -283,7 +293,9 @@ background-position: 0 0;
 }
 
 .footer a {
-	color: #00B0FF; text-decoration: none;
+	color: #00B0FF;
+	font-weight: normal;
+	text-decoration: none;
 }
 
 .footer a:hover {
@@ -333,13 +345,13 @@ background-position: 0 0;
 }
 
 @media screen and (min-width: 960px){
-	body, .social, .nav ul, .content, .footer, .timeline .sponsors {
+	body, .social, .nav ul, .content, .footer, .timeline, .location {
   		width: 960px;
   	}
 }
 
 @media handheld and (min-width: 260px){
-	body, .social, .nav ul, .content, .footer, .timeline .sponsors {
+	body, .social, .nav ul, .content, .footer, .timeline, .location {
 		width: 260px;
 	}
 }
