@@ -47,6 +47,7 @@ img {
 p{
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
 	line-height: 1.5em;
+	text-align: justify;
 }
 
 .header {
@@ -277,6 +278,20 @@ background-position: 0 0;
 }
 /* End Slider */
 
+#regionals {
+	display: none;
+	margin-left: 5em;
+}
+
+#regionals li {
+	list-style: none;
+}
+
+#committees{
+	display: none;
+	margin-left: 5em;
+}
+
 .contactinfo {
 	margin-bottom: 1em;
 }
@@ -341,22 +356,22 @@ background-position: 0 0;
 }
 
 @media screen and (max-width: 720px) {
-	.contentinfo {
+	.column-2-1 {
 		clear: both;
 	}
 
-	.contentform {
+	.column-2-2 {
 		clear: both;
 	}
 }
 
 @media screen and (min-width: 720px) {
-	.contactinfo {
-  		float: right;
+	.column-2-1 {
+  		float: left;
   	}
 
-  	.contactform {
-  		float: left;
+  	.column-2-2 {
+  		float: right;
   	}
 }
 

@@ -17,6 +17,17 @@
     ga('send', 'pageview');
 
   </script>
+  <script type="text/javascript">
+    function toggle_div_fun(id) {
+
+      var divelement = document.getElementById(id);
+
+      if(divelement.style.display == 'none')
+        divelement.style.display = 'block';
+      else
+        divelement.style.display = 'none';
+    }
+  </script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
 
@@ -78,8 +89,46 @@
   <!-- Start Timeline -->
     <div class="timelineJS">
       <iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AscAQmwOlUMIdEIxdTNyOTNtNHM0YlNHbjZIOVBVTVE&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650' width='100%' height='650' frameborder='0'></iframe> 
-      <a href="http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AscAQmwOlUMIdEIxdTNyOTNtNHM0YlNHbjZIOVBVTVE&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650" style="float: right;" target="_blank">View Timeline in Broswer</a>
+      <a href="http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AscAQmwOlUMIdEIxdTNyOTNtNHM0YlNHbjZIOVBVTVE&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650" style="float: right; padding: 5px;" target="_blank">View Timeline in Browser</a>
     </div> <!-- End Timeline -->
+    <div class="wrapper" style="margin-top: 1em;">
+      <h2>About Gryffingear Team 5012</h2>
+      <p style="clear: both;">Founded not long after the establishment of the Palmdale Aerospace Academy, Gryffingear has evolved into a large team. With over 40 members, we have quite the work force. All these members have made the hierarchy really work. This team has different committees, all with leads and plenty of members. All of our committees and members are CPR certified and CAD able, which is saying a lot when considering we are 9th and 10th graders. Over half of these people have experienced our pre-rookie year, which was a year dedicated to gaining experience through scouting local teams. We've been through a lot in the past two years, and we plan for even greater things in the near future. Gryffingear's mission statementis to further students' experience in practical, project-based learning, and recieve mentoring by local engineers and volunteers. We participate in all aspects of a competitive FIRST Robotics Team as a part of membership with USFIRST.org and its organized activities, clinics, and competitions. We strive to become involved with neighboring middle and elementary schools participation in the FIRST Lego League (FLL).</p>
+      <p></p><br>
+      
+      <!-- Start Regional Text -->
+      <a onclick="toggle_div_fun('regionals')">Regionals/Events &#9660;</a>
+      <div id="regionals">
+        <h2>2014 Season</h2>
+        <ul>
+          <li>Inland Empire Regional: 9-8-0</li>
+          <li>Las Vegas Regional: 3-7-1</li>
+          <li><em>FIRST</em> Championship (Galileo): 6-4-0</li>
+        </ul><br>
+        <h2>2013 Season</h2>
+        <ul>
+          <li>Fall Classic</li>
+        </ul>
+      </div><br> <!-- End Regional Text -->
+
+      <a onclick="toggle_div_fun('committees')">Committees &#9660;</a>
+      <div id="committees">
+        <h2>Marketing</h2>
+        <p>In marketing we focus on outreach, organizing team events, fundraising and team imagery. There are two sections to marketing consisting of marketing-imagery and marketing-treasury. Within marketing-imagery they work on things such as collaborating with spirit to create unique team chants and painstorming creative designs for the booth. Marketing-treasury on the other hand deal with all of the finances. They do things such as fill out fundraiser request forms, keep track of our snack shop and collect all of the recycling from the robotics recycling bins we have around campus for extra funds.</p><br>
+        <h2>Awards</h2>
+        <p>Awards Committee is a group of devoted FRC robotics students that sacrifice their time to ensure all team events are recorded. They take pictures of these events and organize them in chronological order. This helps for when they focus on the Chairman's Binder, which includes all events in which the team takes place in. The Chairman's Award is the main award focus for this committee. However, the awards committee also focuses on all other relevant awards. They collaborate with the whole team, but primarily focus on cooperating with the Spirit/Imagery and Marketing Committees. Awards committee is like the historians of the team, recording and preserving all past events that the team attended. They have two main responsibilities though. Meeting deadlines for award submissions and completing and maintain the upkeep of the Chairman's Binder. Although this committee is one of the underdogs of our team, it takes every gear to keep our griffin running smoothly.</p><br>
+        <h2>Safety</h2>
+        <p>Our team tries our best to put an effort towards safety. We have a designated group of students that supervise everyone else in whatever is being done. The team currently has 30 members who are CPR & First Aid certified and prepared in cases of emergencies. Before working with anything, the students on the team take a safety test to ensure that the needed knowledge was efficiently taught. The safety committee members keep knowledge and record fo many things that could be needed to know or have fun with what we do. They also create a safety animation each year. Ways they try to promote safety to the community is through outreach and <a href="https://www.youtube.com/playlist?list=PL-MedSjkZfH7jUjVtGYOqAK-i2WOy7Ply" target="_blank">safety videos</a>.</p><br>
+        <h2>Fabrication/Electronics</h2>
+        <p>In Fabrication and Electronics our main purpose is building the bot. We collaborate with design, programming, marketing, and especially safety. It is our job to make sure that we have our electrical wiring done correctly for programming's code to run smoothly. Neatness is also a key factor in wiring for ease of mobility, accessibility, and knowing what controls what. Neatness plays an important role in making the robot as well. Making sure that we clearly understand what design has given us and are fully aware of the safety parameters ensures a smooth running robot.</p><br>
+        <h2>Robot Design</h2>
+        <p>Being in the design committee of 5012 is a fairly interesting experience. A design may look good on paper but sometimes it's not as great as expected as a real model. I find that taking things for granted in a design can be foolish. As an example process of designing a catapult: a thing you might take for granted until you get to building the design would be the stability of the device. A catapult that's not secure to the base of a robot could easily snap off when firing. As a person in design I have to think about everything that could possibly go wrong in mechanism vs the good qualities. Seeing the prototype/physical copy of a design is fairly rewarding struggling with and ill-conceived is fairly frustrating and will lead to disappointment. Over all being in design is a fun, beneficial experience.</p><br>
+        <h2>Programming</h2>
+        <p>Programming is the pain of the robot. In program we write code, using java, to get the robot to perform the desired task. Like all other committees programming can't work alone, we need the other committees to do things too. How would we build the robot, how would we market. We need a team to work on various tasks, like a body. Our function would be the pain. We control the built robot.</p><br>
+        <h2>Website</h2>
+        <p>Website is responsible for the team's representation online. This committee makes the website as well as changes/additions to the content so that it is up to date. The website is coded from scratch using <a href="http://www.sublimetext.com/2" target="_blank">Sublime Text</a> with a domain bought from <a href="http://www.godaddy.com/" target="_blank">GoDaddy</a>. If there are any questions about the code or suggestions for improvement feel free to contact the team.</p>
+      </div>
+    </div>
   </div> <!-- End Website Content -->
 
   <!-- Start Footer -->
