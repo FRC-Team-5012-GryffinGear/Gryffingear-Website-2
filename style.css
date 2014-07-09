@@ -278,12 +278,7 @@ background-position: 0 0;
 /* End Slider */
 
 .contactinfo {
-	float: right;
-	margin-bottom: 15px;
-}
-
-.contactform {
-	float: left;
+	margin-bottom: 1em;
 }
 
 /* Start Footer */
@@ -324,7 +319,7 @@ background-position: 0 0;
 /* End Back to Top */
 
 /* Start Media Display */
-@media screen and (max-width: 580px){
+@media screen and (max-width: 875px){
 	.nul {
    		max-height: 0;
 	}
@@ -343,6 +338,26 @@ background-position: 0 0;
    	.mobilenav {
    		display: block;
    	}
+}
+
+@media screen and (max-width: 720px) {
+	.contentinfo {
+		clear: both;
+	}
+
+	.contentform {
+		clear: both;
+	}
+}
+
+@media screen and (min-width: 720px) {
+	.contactinfo {
+  		float: right;
+  	}
+
+  	.contactform {
+  		float: left;
+  	}
 }
 
 @media screen and (min-width: 960px){
