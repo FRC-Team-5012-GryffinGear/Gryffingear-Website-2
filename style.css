@@ -399,13 +399,13 @@ background-position: 0 0;
 }
 
 @media screen and (min-width: 960px){
-	body, .social, .nav ul, .content, .footer, .timeline, .location {
+	body, .social, .nav ul, .content, .footer, .timeline, .calendar, .location {
   		width: 960px;
   	}
 }
 
 @media handheld and (min-width: 260px){
-	body, .social, .nav ul, .content, .footer, .timeline, .location {
+	body, .social, .nav ul, .content, .footer, .timeline, .calendar, .location {
 		width: 260px;
 	}
 }
