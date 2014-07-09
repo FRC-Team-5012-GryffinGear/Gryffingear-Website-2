@@ -354,5 +354,9 @@ background-position: 0 0;
 	body, .social, .nav ul, .content, .footer, .timeline, .location {
 		width: 260px;
 	}
+
+	.contactform {
+		display: none;
+	}
 }
 /* End Media Display */
