@@ -386,6 +386,10 @@ background-position: 0 0;
 	.column-2-2 {
 		clear: both;
 	}
+
+	.calendar {
+		height: 300px;
+	}
 }
 
 @media screen and (min-width: 720px) {
@@ -395,6 +399,10 @@ background-position: 0 0;
 
   	.column-2-2 {
   		float: right;
+  	}
+
+  	.calendar {
+  		height: 600px;
   	}
 }
 
