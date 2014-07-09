@@ -50,6 +50,17 @@ p{
 	text-align: justify;
 }
 
+.sub {
+	color: #404040;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+.quick {
+	font-weight: bolder;
+	letter-spacing: .25em;
+}
+
 .header {
 	background: #d0d0d0;
 	width: 100%
@@ -289,6 +300,20 @@ background-position: 0 0;
 
 #committees{
 	display: none;
+	margin-left: 2em;
+}
+
+.awards {
+	margin-left: 2em;
+	margin-bottom: 1em;
+}
+
+.awards li {
+	list-style: none;
+}
+
+.totalawards {
+	margin-bottom: 1em;
 	margin-left: 2em;
 }
 
