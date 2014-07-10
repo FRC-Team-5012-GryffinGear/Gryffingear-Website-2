@@ -44,7 +44,7 @@ img {
 	height: auto;
 }
 
-p{
+p {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
 	line-height: 1.5em;
 	text-align: justify;
@@ -294,16 +294,23 @@ background-position: 0 0;
 	margin-left: 2em;
 }
 
-#regionals li {
-	list-style: none;
-}
-
 .awards, .totalawards, .contactinfo {
 	margin-bottom: 1em;
 }
 
-.awards li {
+#regionals li, .awards li {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+	line-height: 1.5em;
 	list-style: none;
+	text-align: justify;
+}
+
+.links {
+	color: #7c7c7c;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+	line-height: 1.5em;
+	list-style: none;
+	text-align: justify;
 }
 
 /* Start Footer */
