@@ -17,6 +17,17 @@
     ga('send', 'pageview');
 
   </script>
+  <script type="text/javascript">
+    function toggle_div_fun(id) {
+
+      var divelement = document.getElementById(id);
+
+      if(divelement.style.display == 'none')
+        divelement.style.display = 'block';
+      else
+        divelement.style.display = 'none';
+    }
+  </script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
 
@@ -74,29 +85,34 @@
 
   <!-- Start Website Content -->
   <div class="content">
-    
-    <!-- Start Wrapper -->
     <div class="wrapper">
-      <h2>Resources</h2>
-      
-      <!-- Start Links -->
-      <ul class="links">
-          <li><a href="http://www.usfirst.org/" target="_blank" title="USFIRST.org"><i>FIRST</i></a> - The Official <i>FIRST</i> Website</li>
-          <li><a href="https://my.usfirst.org/stims/Login.aspx" target="_blank" title="STIMS Login">STIMS</a> - For Applying to Teams and Awards</li>
-          <li><a href="https://my.usfirst.org/frc/tims/site.lasso" target="_blank" title="Team Information Management System">TIMS</a> - To Provide Team Information and Register For Events</li>
-          <li><a href="http://www.chiefdelphi.com/forums/portal.php" target="_blank" title="Chief Dephi - Portal">Chief Delphi</a> - The Unofficial <i>FIRST</i> Forums</li>
-          <li><a href="http://frc-manual.usfirst.org/" target="_blank" title="FRC Manual">FRC Manual</a> - The FRC Administritive and Game Manual</li>
-          <li><a href="http://www.usfirst.org/roboticsprograms/frc/safety-video-and-manual" target="_blank" title="Safety | USFIRST.org">Safety <i>FIRST</i></a> - Where You Can Find the <i>FIRST</i> Safety Manual and Safety Animation Submissions</li>
-          <li><a href="http://www.youtube.com/playlist?list=PL-MedSjkZfH7jUjVtGYOqAK-i2WOy7Ply" target="_blank" title="Safety Theater | Gryffingear Team 5012">Safety Theater</a> - A Playlist With Safety Videos Created by Gryffingear Team 5012</li>
-          <li><a href="http://aredivisionsoutyet.com/" target="_blank" title="Are Divisions Out Yet? (FIRST Robotics Competition Championship Event)">Are Divisions Out Yet?</a> - A Team List for the Divisions in the <i>FIRST</i> Championship</li>
-          <li><a href="http://thefirstalliance.org/" target="_blank" title="The FIRST Alliance">The <i>FIRST</i> Alliance</a> - A Site With FRC Stats</li>
-          <li><a href="http://www.thebluealliance.com/" target="_blank" title="The Blue Alliance">The Blue Alliance</a> - A Site With Team Information and Match Videos</li>
-          <li><a href="http://www.theredalliance.com/" target="_blank" title="The Red Alliance - Portal to FIRST">The Red Alliance</a> -  A Site With Live Feeds and Scouting Tips</li>
-          <li><a href="http://www.firstcadlibrary.com/" target="_blank" title="FIRST CAD Library"><i>FIRST</i> CAD Library</a> - A CAD Library of <i>FIRST</i> Parts</li>
-          <li><a href="http://theavtimes.com/2014/03/04/tpaa-robotics-team-wins-rookie-all-star-award/" target="_blank" title="News Article for Rookie All-Star | Gryffingear Team 5012">TPAA Robotics Team Wins ‘Rookie All-Star Award’</a> - A news article about Gryffingear Team 5012 Winning Rookie All-Star</li>
-          <li><a href="http://theavtimes.com/2014/04/07/tpaa-robotics-team-wins-second-rookie-all-star-award/" target="_blank" title="News Article for 2nd Rookie All-Star | Gryffingear Team 5012">TPAA Robotics Team Wins Second Rookie All-Star Award</a> - A news article about Gryffingear Team 5012 Winning Rookie All-Star Again</li>
-      </ul> <!-- End Links -->
-    </div> <!-- End Wrapper -->
+      <h2>Sponsors</h2>
+      <ul class="sponsors">
+        <li>Northrop Grumman</li>
+        <li>NASA</li>
+        <li>American Business Machines</li>
+        <li>Lockheed Martin</li>
+        <li>Choices in Learning National Foundation</li>
+        <li>AERO Institute</li>
+        <li>The NASA Dryden Flight Research Center</li>
+        <li>The Palmdale Aerospace Academy</li>
+      </ul>
+
+      <!-- Start How to Become a Sponsor -->
+      <a onclick="toggle_div_fun('sponsorship')">How to Become a Sponsor &#9660;</a><br>
+      <div id="sponsorship">
+        <p>Contact us for more information.</p>
+        <a href="https://drive.google.com/file/d/0B275kglIG4BgSGZyMkgyZ19QX2c/edit?usp=sharing" target="_blank" title="Brochure | Gryffingear Team 5012">Gryffingear5012_Brochure.pdf</a>
+      </div><br><br> <!-- End How to Become a Sponsor -->
+
+      <ul class="sponsor-logos">
+        <li><a href="http://www.northropgrumman.com/" target="_blank" title="Northrop Grumman"><img src="images/northrop-grumman-logo.png"></a></li>
+        <li><a href="http://www.lockheedmartin.com/" target="_blank" title="Lockheed Martin"><img src="images/lockheed-martin-logo.png"></a></li>
+        <li><a href="http://www.tpaa.org" target="_blank" title="The Palmdale Aerospace Academy"><img src="images/tpaa-logo.png"></a></li>
+        <li><a href="http://www.nasa.gov/" target="_blank" title="National Aeronautics and Space Administration"><img src="images/nasa-logo.png"></a></li>
+        <li><a href="http://www.nasa.gov/centers/dryden/" target="_blank" title="NASA Dryden Flight Research Center"><img src="images/nasa-dryden-logo.png"></a></li>
+      </ul>
+    </div>
   </div> <!-- End Website Content -->
 
   <!-- Start Footer -->

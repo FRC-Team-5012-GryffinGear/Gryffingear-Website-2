@@ -295,7 +295,12 @@ background-position: 0 0;
 }
 /* End Slider */
 
-#regionals, #committees, #braverybrewing, #roboweek, #blooddrive, #srw, #game, #frc, #ftc, #fll, #impact {
+.sponsor-logos li{
+	float: left;
+	list-style: none;
+}
+
+#regionals, #committees, #braverybrewing, #roboweek, #blooddrive, #srw, #game, #frc, #ftc, #fll, #impact, #sponsorship {
 	display: none;
 	margin-left: 2em;
 }
@@ -304,7 +309,7 @@ background-position: 0 0;
 	margin-bottom: 1em;
 }
 
-#regionals li, .awards li, #game li {
+#regionals li, .awards li, #game li, .sponsors {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
 	line-height: 1.5em;
 	list-style: none;
