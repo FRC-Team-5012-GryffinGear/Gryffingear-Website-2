@@ -32,6 +32,13 @@ a:hover {
 	text-decoration: underline;
 }
 
+blockquote {
+	margin: 1em 3em;
+	color: #404040;
+	border-left: 2px solid #404040;
+	padding-left: 1em;
+}
+
 h2 {
 	color: #7f7f7f; 
 	font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif; 
@@ -288,7 +295,7 @@ background-position: 0 0;
 }
 /* End Slider */
 
-#regionals, #committees, #braverybrewing, #roboweek, #blooddrive, #srw {
+#regionals, #committees, #braverybrewing, #roboweek, #blooddrive, #srw, #game, #frc, #ftc, #fll, #impact {
 	display: none;
 	margin-left: 2em;
 }
@@ -297,7 +304,7 @@ background-position: 0 0;
 	margin-bottom: 1em;
 }
 
-#regionals li, .awards li {
+#regionals li, .awards li, #game li {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
 	line-height: 1.5em;
 	list-style: none;
