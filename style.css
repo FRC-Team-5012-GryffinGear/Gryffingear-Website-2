@@ -302,7 +302,6 @@ background-position: 0 0;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
 	line-height: 1.5em;
 	list-style: none;
-	text-align: justify;
 }
 
 .links {
@@ -310,7 +309,6 @@ background-position: 0 0;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
 	line-height: 1.5em;
 	list-style: none;
-	text-align: justify;
 }
 
 /* Start Footer */
@@ -413,10 +411,6 @@ background-position: 0 0;
 
 	.calendar {
 		height: 100px;
-	}
-
-	p, #regionals li, .awards li, .links {
-		text-align: initial;
 	}
 }
 /* End Media Display */
