@@ -414,5 +414,9 @@ background-position: 0 0;
 	.calendar {
 		height: 100px;
 	}
+
+	p, #regionals li, .awards li, .links {
+		text-align: initial;
+	}
 }
 /* End Media Display */
