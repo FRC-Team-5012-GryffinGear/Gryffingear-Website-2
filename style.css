@@ -410,14 +410,22 @@ background-position: 0 0;
   	}
 }
 
+@media screen and (max-width: 370px) {
+  .logo {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 370px) {
+  .logo {
+    width: 60%;
+  }
+}
+
 @media screen and (min-width: 960px){
 	body, .social, .nav ul, .content, .footer, .timeline, .calendar, .location {
   		width: 960px;
   	}
-
-  .logo {
-    width: 60%;
-  }
 }
 
 @media handheld and (min-width: 260px){
@@ -428,9 +436,5 @@ background-position: 0 0;
 	.calendar {
 		height: 100px;
 	}
-
-  .logo {
-    width: 80%;
-  }
 }
 /* End Media Display */
