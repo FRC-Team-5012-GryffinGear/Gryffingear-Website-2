@@ -300,7 +300,7 @@ background-position: 0 0;
 	list-style: none;
 }
 
-#regionals, #committees, #braverybrewing, #roboweek, #blooddrive, #srw, #game, #frc, #ftc, #fll, #impact, #sponsorship {
+#regionals, #news, #committees, #braverybrewing, #roboweek, #blooddrive, #srw, #game, #frc, #ftc, #fll, #impact, #sponsorship {
 	display: none;
 	margin-left: 2em;
 }
@@ -383,11 +383,7 @@ background-position: 0 0;
 }
 
 @media screen and (max-width: 720px) {
-	.column-2-1 {
-		clear: both;
-	}
-
-	.column-2-2 {
+	.column-2-1, .column-2-2 {
 		clear: both;
 	}
 
