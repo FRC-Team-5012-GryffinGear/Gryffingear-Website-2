@@ -76,20 +76,20 @@
   <div class="content">
 
     <!-- Start Wrapper -->
-    <div class="wrapper">	
+    <div class="wrapper">
       <center>
-        <p style="font-size: 5em;">404</p>
-        <h2>Muggles Can't See This Page.</h2><br>
-        <a href="#" onclick='redirectToHomePage();' title="Home Page">Continue the Journey</a>
+        <h2>Thanks!</h2>
+        <p class="links">If you made it here, it means we've gotten your request. We will contact you as soon as possible.</p><br>
+        <a href="#" onclick='redirectToHomePage();' title="Home Page">Home Page</a>
       </center>
+    </div> <!-- End Wrapper -->
 
-      <!-- Start Home Page Redirect Script -->
-      <script>
-        redirectToHomePage = function() {
-          window.location.href = "http://" + window.location.hostname;
-        }
-      </script><!-- End Home Page Redirect Script -->
-  	</div> <!-- End Wrapper -->
+    <!-- Start Home Page Redirect Script -->
+    <script>
+      redirectToHomePage = function() {
+        window.location.href = "http://" + window.location.hostname;
+      }
+    </script><!-- End Home Page Redirect Script -->
   </div> <!-- End Website Content -->
 
   <!-- Start Footer -->
