@@ -17,59 +17,59 @@ time, mark, audio, video {
 }
 
 body {
-	background-color: #740001;
-	margin: auto;
-  	width: 100%
+  background-color: #740001;
+  margin: auto;
+    width: 100%
 }
 
 a {
-	color: #0088cc; 
-	font-weight: bold;
-	text-decoration: none;
+  color: #0088cc; 
+  font-weight: bold;
+  text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 blockquote {
-	margin: 1em 3em;
-	color: #404040;
-	border-left: 2px solid #404040;
-	padding-left: 1em;
+  margin: 1em 3em;
+  color: #404040;
+  border-left: 2px solid #404040;
+  padding-left: 1em;
 }
 
 h2 {
-	color: #7f7f7f; 
-	font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif; 
-	font-style: normal; 
-	font-weight: 400;
+  color: #7f7f7f; 
+  font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif; 
+  font-style: normal; 
+  font-weight: 400;
 }
 
 img {
-	max-width: 100%; 
-	height: auto;
+  max-width: 100%; 
+  height: auto;
 }
 
 p {
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
-	line-height: 1.5em;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  line-height: 1.5em;
 }
 
 .sub {
-	color: #404040;
-	font-size: 1.25em;
-	font-weight: bold;
+  color: #404040;
+  font-size: 1.25em;
+  font-weight: bold;
 }
 
 .quick {
-	font-weight: bolder;
-	letter-spacing: .25em;
+  font-weight: bolder;
+  letter-spacing: .25em;
 }
 
 .header {
-	background: #d0d0d0;
-	width: 100%
+  background: #d0d0d0;
+  width: 100%
 }
 
 
@@ -251,13 +251,13 @@ background-position: 0 0;
 /* End Navigation Menu */
 
 .content {
-	background-color: #ffffff;
-	overflow: hidden;
-	width: 100%
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%
 }
 
 .wrapper {
-	padding: 10px;
+  padding: 10px;
 }
 
 /* Start Slider */
@@ -309,114 +309,114 @@ background-position: 0 0;
 /* End Slider */
 
 .sponsor-logos li{
-	float: left;
-	list-style: none;
+  float: left;
+  list-style: none;
 }
 
 #regionals, #news, #committees, #braverybrewing, #roboweek, #blooddrive, #srw, #game, #frc, #ftc, #fll, #impact, #sponsorship {
-	display: none;
-	margin-left: 2em;
+  display: none;
+  margin-left: 2em;
 }
 
 .teamfacts, .updates, .awards, .totalawards, .contactinfo {
-	margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .updates li, .teamfacts li, #regionals li, .awards li, #game li, .sponsors {
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
-	line-height: 1.5em;
-	list-style: none;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  line-height: 1.5em;
+  list-style: none;
 }
 
 .links {
-	color: #7c7c7c;
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
-	line-height: 1.5em;
-	list-style: none;
+  color: #7c7c7c;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif; 
+  line-height: 1.5em;
+  list-style: none;
 }
 
 /* Start Footer */
 .footer {
-	background: #666;
-	margin-bottom: 10px;
-	width: 100%;
+  background: #666;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 .footer a {
-	color: #00B0FF;
-	font-weight: normal;
-	text-decoration: none;
+  color: #00B0FF;
+  font-weight: normal;
+  text-decoration: none;
 }
 
 .footer a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 /* End Footer */
 
 /* Start Back to Top */
 .go-top {
-	background-color: rgba(0, 0, 0, 0.3);
-	border-radius: 10px;
-	bottom: 2em;
-	color: white;
-	display: none;
-	font-size: 12px;
-	padding: 2em;
-	position: fixed;
-	right: 2em;
-	text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  bottom: 2em;
+  color: white;
+  display: none;
+  font-size: 12px;
+  padding: 2em;
+  position: fixed;
+  right: 2em;
+  text-decoration: none;
 }
 
 .go-top:hover {
-	background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 /* End Back to Top */
 
 /* Start Media Display */
 
 @media screen and (max-width: 875px){
-	.nul {
-   		max-height: 0;
-	}
+  .nul {
+      max-height: 0;
+  }
    
-	.showing {
-   		max-height: 30em;    
-	}
+  .showing {
+      max-height: 30em;    
+  }
    
    .nul li {
-   		box-sizing: border-box;
-   		width: 100%;
-   		padding: 10px;
-   		text-align: left;
-   	}
+      box-sizing: border-box;
+      width: 100%;
+      padding: 10px;
+      text-align: left;
+    }
    
-   	.mobilenav {
-   		display: block;
-   	}
+    .mobilenav {
+      display: block;
+    }
 }
 
 @media screen and (max-width: 720px) {
-	.column-2-1, .column-2-2 {
-		clear: both;
-	}
+  .column-2-1, .column-2-2 {
+    clear: both;
+  }
 
-	.calendar {
-		height: 300px;
-	}
+  .calendar {
+    height: 300px;
+  }
 }
 
 @media screen and (min-width: 720px) {
-	.column-2-1 {
-  		float: left;
-  	}
+  .column-2-1 {
+      float: left;
+    }
 
-  	.column-2-2 {
-  		float: right;
-  	}
+    .column-2-2 {
+      float: right;
+    }
 
-  	.calendar {
-  		height: 600px;
-  	}
+    .calendar {
+      height: 600px;
+    }
 }
 
 @media screen and (max-width: 370px) {
@@ -432,18 +432,18 @@ background-position: 0 0;
 }
 
 @media screen and (min-width: 960px){
-	body, .social, .nav ul, .content, .footer, .timeline, .calendar, .location {
-  		width: 960px;
-  	}
+  body, .social, .nav ul, .content, .footer, .timeline, .calendar, .location {
+      width: 960px;
+    }
 }
 
 @media handheld and (min-width: 260px){
-	body, .social, .nav ul, .content, .footer, .timeline, .calendar, .location {
-		width: 260px;
-	}
+  body, .social, .nav ul, .content, .footer, .timeline, .calendar, .location {
+    width: 260px;
+  }
 
-	.calendar {
-		height: 100px;
-	}
+  .calendar {
+    height: 100px;
+  }
 }
 /* End Media Display */
