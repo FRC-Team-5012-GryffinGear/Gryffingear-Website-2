@@ -52,7 +52,7 @@ img {
 }
 
 p {
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 	line-height: 1.5em;
 }
 
@@ -323,14 +323,14 @@ background-position: 0 0;
 }
 
 .updates li, .teamfacts li, #regionals li, .awards li, #game li, .sponsors {
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 	line-height: 1.5em;
 	list-style: none;
 }
 
 .links {
 	color: #7c7c7c;
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif; 
 	line-height: 1.5em;
 	list-style: none;
 }
