@@ -313,7 +313,7 @@ background-position: 0 0;
   list-style: none;
 }
 
-#regionals, #news, #committees, #braverybrewing, #roboweek, #blooddrive, #srw, #game, #frc, #ftc, #fll, #impact, #sponsorship {
+#regionals, #news, #committees, #braverybrewing, #roboweek, #robonight, #blooddrive, #srw, #game, #frc, #ftc, #fll, #impact, #sponsorship {
   display: none;
   margin-left: 2em;
 }
@@ -352,6 +352,26 @@ background-position: 0 0;
   text-decoration: underline;
 }
 /* End Footer */
+
+/*Start Mailing List*/
+.fname, .lname, .email {
+  padding: 4px;
+}
+
+.fname:focus, .lname:focus, .email:focus {
+  background: #e8e8e8;
+  box-shadow: none;
+}
+
+.submit {
+  background-color: #eeba30;
+  border: none;
+  color: #ffffff;
+  font-size: 1em;
+  margin-left: -5px;
+  padding: 4px;
+}
+/*End Mailing List */
 
 /* Start Back to Top */
 .go-top {
