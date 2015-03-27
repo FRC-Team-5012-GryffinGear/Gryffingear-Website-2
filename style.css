@@ -241,7 +241,7 @@ background-position: 0 0;
 .mobilenav {
    background: #eeba30;
    box-sizing: border-box;
-   color: white;
+   color: #000000;
    cursor: pointer;
    display: none;
    padding: 15px 10px;
