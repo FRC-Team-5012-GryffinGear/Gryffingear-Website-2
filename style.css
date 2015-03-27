@@ -313,7 +313,7 @@ background-position: 0 0;
   list-style: none;
 }
 
-#regionals, #news, #committees, #braverybrewing, #roboweek, #robonight, #blooddrive, #srw, #game, #frc, #ftc, #fll, #impact, #sponsorship {
+#mentoring, #regionals, #news, #committees, #braverybrewing, #roboweek, #robonight, #blooddrive, #srw, #game, #frc, #ftc, #fll, #impact, #sponsorship {
   display: none;
   margin-left: 2em;
 }
