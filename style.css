@@ -313,7 +313,7 @@ background-position: 0 0;
   list-style: none;
 }
 
-#mentoring, #regionals, #news, #committees, #braverybrewing, #roboweek, #robonight, #blooddrive, #srw, #game, #frc, #ftc, #fll, #impact, #sponsorship {
+#outreach, #hours, #regionals, #news, #committees, #braverybrewing, #roboweek, #robonight, #blooddrive, #srw, #game, #frc, #ftc, #fll, #impact, #sponsorship {
   display: none;
   margin-left: 2em;
 }
@@ -322,7 +322,7 @@ background-position: 0 0;
   margin-bottom: 1em;
 }
 
-.updates li, .teamfacts li, #mentoring li, #regionals li, .awards li, #game li, .sponsors {
+.updates li, .teamfacts li, #outreach li, #hours li, #regionals li, .awards li, #game li, .sponsors {
   font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
   line-height: 1.5em;
   list-style: none;
@@ -341,16 +341,6 @@ background-position: 0 0;
   margin-bottom: 10px;
   width: 100%;
 }
-
-/*.footer a {
-  color: #00B0FF;
-  font-weight: normal;
-  text-decoration: none;
-}
-
-.footer a:hover {
-  text-decoration: underline;
-} */
 /* End Footer */
 
 /*Start Mailing List*/
