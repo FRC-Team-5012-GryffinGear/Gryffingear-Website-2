@@ -322,7 +322,7 @@ background-position: 0 0;
   margin-bottom: 1em;
 }
 
-.updates li, .teamfacts li, #regionals li, .awards li, #game li, .sponsors {
+.updates li, .teamfacts li, #mentoring, #regionals li, .awards li, #game li, .sponsors {
   font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
   line-height: 1.5em;
   list-style: none;
