@@ -19,7 +19,7 @@ time, mark, audio, video {
 body {
   background-color: #740001;
   margin: auto;
-    width: 100%
+  width: 100%
 }
 
 a {
@@ -229,7 +229,7 @@ background-position: 0 0;
    transition: max-height 0.4s;
 }
 
-.nul li{
+.nul li {
    display: inline-block;
    padding: 10px;
 }
