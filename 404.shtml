@@ -79,8 +79,7 @@
     <div class="wrapper">	
       <center>
         <p style="font-size: 5em;">404</p>
-        <h2>Sorry, Dean Kamen With His Wrecking Ball.</h2>
-        <img src="images/dean-kamen-like-a-wrecking-ball.jpg" style="width: 50%; height: 100%;"><br>
+        <h2>Sorry, the page you are looking for cannot be found.</h2><br>
         <a href="#" onclick='redirectToHomePage();' title="Home Page">Continue the Journey</a>
       </center>
 
