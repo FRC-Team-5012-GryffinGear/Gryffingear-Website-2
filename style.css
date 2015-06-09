@@ -338,6 +338,7 @@ background-position: 0 0;
 /* Start Footer */
 .footer {
   background: #B2B2B2;
+  clear: both;
   margin-bottom: 10px;
   width: 100%;
 }
