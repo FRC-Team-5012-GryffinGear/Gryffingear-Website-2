@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <title>Gryffingear Team 5012 | TPAA Robotics</title>
+  <title>Team 5012 Gryffingear | TPAA Robotics</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -17,6 +17,17 @@
     ga('send', 'pageview');
 
   </script>
+  <script type="text/javascript">
+    function toggle_div_fun(id) {
+
+      var divelement = document.getElementById(id);
+
+      if(divelement.style.display == 'none')
+        divelement.style.display = 'block';
+      else
+        divelement.style.display = 'none';
+    }
+  </script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
 
@@ -26,28 +37,28 @@
   <div class="header">
 
     <!-- Start Social Buttons -->
-  	<div class="social">
-      	<ul>
-    			<li>
-    				<a class="facebook-hover" href="https://www.facebook.com/TPAARobotics.FTCTeam.7372.FRCTeam.5012" target="_blank" title="Facebook | Gryffingear 5012 & Norbots 7372">Facebook</a>
-    			</li>
-    			<li>
-    				<a class="google-hover" href="https://plus.google.com/u/0/+Gryffingear5012" target="_blank" title="Google+ | Gryffingear Team 5012">Google+</a>
-    			</li>
-    			<li>
-    				<a class="instagram-hover" href="http://instagram.com/gryffingear5012" target="_blank" title="Instagram | Gryffingear Team 5012">Instagram</a>
-    			</li>
-    			<li>
-    				<a class="reddit-hover" href="http://www.reddit.com/r/Gryffingear5012" target="_blank" title="Reddit | Gryffingear Team 5012">Reddit</a>
-    			</li>
-    			<li>
-    				<a class="twitter-hover" href="https://twitter.com/Gryffingear5012" target="_blank" title="Twitter | Gryffingear Team 5012">Twitter</a>
-    			</li>
-    			<li>
-    				<a class="youtube-hover" href="https://www.youtube.com/user/Gryffingear5012" target="_blank" title="YouTube | Gryffingear Team 5012">YouTube</a>
-    			</li>
-    		</ul>
-  	</div> <!-- End Social Buttons -->
+    <div class="social">
+        <ul>
+          <li>
+            <a class="facebook-hover" href="https://www.facebook.com/Team5012Gryffingear" target="_blank" title="Facebook | Team 5012 Gryffingear">Facebook</a>
+          </li>
+          <li>
+            <a class="google-hover" href="https://plus.google.com/u/0/+Gryffingear5012" target="_blank" title="Google+ | Team 5012 Gryffingear">Google+</a>
+          </li>
+          <li>
+            <a class="instagram-hover" href="http://instagram.com/gryffingear5012" target="_blank" title="Instagram | Team 5012 Gryffingear">Instagram</a>
+          </li>
+          <li>
+            <a class="twitter-hover" href="https://twitter.com/Gryffingear5012" target="_blank" title="Twitter | Team 5012 Gryffingear">Twitter</a>
+          </li>
+          <li>
+            <a class="youtube-hover" href="https://www.youtube.com/user/Gryffingear5012" target="_blank" title="YouTube | Team 5012 Gryffingear">YouTube</a>
+          </li>
+          <li>
+            <a class="shutterfly-hover" href="https://team5012.shutterfly.com/" target="_blank" title="Shutterfly | Team 5012 Gryffingear">Shutterfly</a>
+          </li>
+        </ul>
+    </div> <!-- End Social Buttons -->
 
     <a href="http://www.gryffingear.com/" title="gryffingear.com"><img class="logo" src="images/logo.png"></a>
 
@@ -81,41 +92,58 @@
       <!-- Start Total Awards -->
       <div class="sub totalawards quick column-2-2">
         <p class="sub">Quick Count</p>
-        <p>Total Awards: 7</p>
+        <p>Total Awards: 12</p>
         <p>Rookie Awards: 3</p>
         <p>Safety Awards: 4</p>
         <p>Imagery Award: 2</p>
         <p>Regional Winner: 1</p>
+        <p>Champ Division Winner: 1</p>
+        <p>Championship Winner: 1</p>
       </div> <!-- End Total Awards -->
       <h2>Regional Awards</h2>
 
       <!-- Start Awards -->
-      <div class="awards column-2-1">  
-        <p class="sub">2015 &#45; Inland Empire Regional</p>
-        <ul>
-          <li>Hard Hat Pin Award</li>
-        </ul><br>
-        <p class="sub">2015 &#45; Las Vegas Regional</p>
-        <ul>
-          <li>Imagery Award</li>
-          <li>Regional Winner</li>
-        </ul>
-        <p class="sub">2014 &#45; Inland Empire Regional</p>
-        <ul>
-          <li>Rookie All-Star Award</li>
-          <li>Highest Rookie Seed Award</li>
-          <li>Hard Hat Pin Award</li>
-        </ul><br>
-        <p class="sub">2014 &#45; Las Vegas Regional</p>
-        <ul>
-          <li>Rookie All-Star Award</li>
-          <li>UL Industrial Safety Award</li>
-          <li>Star of the Day Award</li>
-        </ul><br>
-        <p class="sub">2014 &#45; <i>FIRST</i> Championship: Galileo Division</p>
-        <ul>
-          <li>Imagery Award</li>
-        </ul><br>
+      <div class="awards column-2-1">
+        
+        <!-- Start 2015 Season -->
+        <a onclick="toggle_div_fun('twentyfifteen')">2015 Season &#9660;</a>
+        <div id="twentyfifteen">
+          <p class="sub">2015 &#45; Inland Empire Regional</p>
+          <ul>
+            <li>Hard Hat Pin Award</li>
+          </ul><br>
+          <p class="sub">2015 &#45; Las Vegas Regional</p>
+          <ul>
+            <li>Imagery Award</li>
+            <li>Regional Winner</li>
+          </ul><br>
+          <p class="sub">2015 &#45; <i>FIRST</i> Championship: Newton Division</p>
+          <ul>
+            <li>Newton Division Winner</li>
+            <li>World Championship Winner</li>
+          </ul>
+        </div><br> <!-- End 2015 Season -->
+
+        <!-- Start 2014 Season -->
+        <a onclick="toggle_div_fun('2014')">2014 Season &#9660;</a>
+        <div id="2014">
+          <p class="sub">2014 &#45; Inland Empire Regional</p>
+          <ul>
+            <li>Rookie All-Star Award</li>
+            <li>Highest Rookie Seed Award</li>
+            <li>Hard Hat Pin Award</li>
+          </ul><br>
+          <p class="sub">2014 &#45; Las Vegas Regional</p>
+          <ul>
+            <li>Rookie All-Star Award</li>
+            <li>UL Industrial Safety Award</li>
+            <li>Star of the Day Award</li>
+          </ul><br>
+          <p class="sub">2014 &#45; <i>FIRST</i> Championship: Galileo Division</p>
+          <ul>
+            <li>Imagery Award</li>
+          </ul>
+        </div><br> <!-- End 2014 Season -->
 
         <h2>Recognitions</h2>
         <p class="sub">Teams at 2014 Regionals</p>
@@ -132,7 +160,7 @@
   <!-- Start Footer -->
   <div class="footer">
     <div class="wrapper">
-      <p>&#169;2014 Gryffingear Team 5012 | Designed by: <a href="https://github.com/FRC-Team-5012-GryffinGear/Gryffingear-Website-2" target="_blank" title="View Website Code">Leslie Ochoa</a><a href="SiteMap.html" style="float: right;" title="Site Map | Gryffingear Team 5012">Site Map</a></p>
+      <p>&#169;2014 Team 5012 Gryffingear | Designed by: <a href="https://github.com/FRC-Team-5012-GryffinGear/Gryffingear-Website-2" target="_blank" title="View Website Code">Leslie Ochoa</a><a href="Sitemap.html" style="float: right;" title="Sitemap | Team 5012 Gryffingear">Sitemap</a></p>
     </div>
   	<a href="#" class="go-top"><img src="images/backtotop.png"></a>
 
