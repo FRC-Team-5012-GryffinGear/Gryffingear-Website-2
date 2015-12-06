@@ -18,6 +18,7 @@
 
   </script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="content.js"></script>
 </head>
 
 <body>
@@ -51,53 +52,6 @@
 
     <a href="http://www.gryffingear.com/" title="gryffingear.com"><img class="logo" src="images/logo.png"></a>
 
-    <!-- Start Accordion -->
-    <div class="accordion">
-
-      <!-- Start Accordion Section -->
-      <div class="accordion-section">
-        <a class="accordion-section-title" href="#accordion-1">Teams We Mentor</a>
-
-        <!-- Start Accordion Section Content -->
-        <div id="accordion-1" class="accordion-section-content">
-          <h3>FLL</h3>
-          <ul class="fll-teams">
-            <script src="website-data"></script>
-          </ul><br>
-          <h3>FTC</h3>
-          <ul class="ftc-teams">
-            <script src="website-data.js"></script>
-          </ul>
-        </div> <!-- End Accordion Section Content -->
-      </div> <!-- End Accordion Section -->
-      <script>
-        $(document).ready(function() {
-            function close_accordion_section() {
-                $('.accordion .accordion-section-title').removeClass('active');
-                $('.accordion .accordion-section-content').slideUp(300).removeClass('open');
-            }
-         
-            $('.accordion-section-title').click(function(e) {
-                // Grab current anchor value
-                var currentAttrValue = $(this).attr('href');
-         
-                if($(e.target).is('.active')) {
-                    close_accordion_section();
-                }else {
-                    close_accordion_section();
-         
-                    // Add active class to section title
-                    $(this).addClass('active');
-                    // Open up the hidden content panel
-                    $('.accordion ' + currentAttrValue).slideDown(300).addClass('open'); 
-                }
-         
-                e.preventDefault();
-            });
-        });
-      </script>
-    </div> <!-- End Accordion -->
-
     <!-- Start Navigation Menu -->
     <div class="nav">
       <ul class="nul">
@@ -121,7 +75,13 @@
 
   <!-- Start Website Content -->
   <div class="content">
+    <img src="images/1-img1.jpg">
 
+    <!-- Start Wrapper -->
+    <div class="wrapper">
+      <h2 class="botlife">Bot Life</h2>
+      <p>Theme:</p>
+    </div>
   </div> <!-- End Website Content -->
 
   <!-- Start Footer -->
